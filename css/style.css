@@ -241,6 +241,7 @@ a{
   margin-top: var(--mb-2);
   margin-bottom: var(--mb-4);
   text-align: center;
+  text-decoration: none;
 }
 
 .section_title::after {
@@ -328,4 +329,78 @@ a{
 }
 .skill_git{
   width: 75%;
+}
+
+.skill_image{
+  width: 300px;
+}
+
+.card-list .card-item .card-link{
+   user-select: none;
+   display: block;
+   background-color: rgba(227, 227, 240, 0.511);
+   padding: 0.7rem;
+   border-radius: 12px;
+   text-decoration: none;
+   box-shadow: 0 10px 10px rgba(46, 3, 3, 0.887) ;
+   transition: 0.2s ease;
+
+
+}
+.card-image{
+  width: 100%;
+  aspect-ratio: 16/9;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.badge{
+  margin : 16px 0 18px;
+  padding:8px 16px;
+  color: white;
+  background-color : var(--first-color);
+  font-weight: 500;
+  font-size: 0.95rem;
+  width: fit-content;
+  border-radius: 10px;
+}
+.card-title{
+  font-weight: 500;
+  color: black;
+  font-size: 1.9rem;
+}
+.card-list .card-link .card-button{
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  color:var(--first-color);
+  background: none;
+  cursor: pointer;
+  font-size: 60px;
+  transition: 0.4s ease;
+  border: none;
+
+}
+
+.card-list .card-link:hover .card-button{
+  width: 10px;
+  transition: 0.4s ease;
+}
+.badge.hackerrank{
+  color : white;
+  background-color: #8e0af3;
+}
+.badge.hackerrank{
+  color : white;
+  background-color: #8e0af3;
+}
+
+.badge.hackerrank{
+  color : white;
+  background-color: #8e0af3;
+}
+
+.card-wrapper{
+  max-width: 1100px;
+  overflow:hidden;
 }

@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PORTFOLIO</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
     <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
@@ -20,6 +25,7 @@
                    <li class="nav_items"><a href="#about" class="nav_link active">About</a></li>
                    <li class="nav_items"><a href="#skill" class="nav_link active">Skill</a></li>
                    <li class="nav_items"><a href="#work" class="nav_link active">Work</a></li>
+                   <li class="nav_items"><a href="#certification" class="nav_link active">Work</a></li>
                    <li class="nav_items"><a href="#contact" class="nav_link active">Contact</a></li>
                 </ul>
 
@@ -74,7 +80,7 @@ organizational success and growth.
          <!-- skill section -->
         <section class="skills sections" id="skill">
             <h2 class="section_title">Skills</h2>
-            <div class="skills_container bd_grid">
+            <div class="skills_container bd_grid ">
                 <div>
                     <h2 class="skills_subtitle">Professional Skills</h2>
                 </div>
@@ -158,10 +164,81 @@ organizational success and growth.
                  </div>
 
             </div>
-
+        
         </section>
+        <!-- internship section -->
+         <section class="internship" id ="Work">
+            <h2 class="section_title">Internship</h2>
+            <div></div>
+         </section>
+        <!-- cert section -->
+         <section class="cert section" id="certification">
+            <h2 class="section_title">Certification</h2>
+            <div class="cert_container bd_grid swiper">
+                <div class="card-wrapper">
+                    <ul class="card-list swiper-wrapper"">
+                        <li class="card-item swiper-slide">
+                            <a href="#" class="card-link">
+                                <img src="./img/python.jpeg" alt="" class="card-image">
+                                <p class="badge hackerrank ">Hackerrank</p>
+                                <h2 class="card-title">
+                                    python certificate
+                                </h2>
+                                <button class=" card-button material-symbols-outlined">
+                                    outbound
+                            </button>
+                            </a>
+                        </li>
+                        <li class="card-item swiper-slide">
+                            <a href="#" class="card-link">
+                                <img src="./img/python.jpeg" alt="" class="card-image">
+                                <p class="badge hackerrank ">Hackerrank</p>
+                                <h2 class="card-title">
+                                    python certificate
+                                </h2>
+                                <button class=" card-button material-symbols-outlined">
+                                    outbound
+                            </button>
+                            </a>
+                        </li>
+                        <li class="card-item swiper-slide">
+                            <a href="#" class="card-link">
+                                <img src="./img/python.jpeg" alt="" class="card-image">
+                                <p class="badge hackerrank ">Hackerrank</p>
+                                <h2 class="card-title">
+                                    python certificate
+                                </h2>
+                                <button class=" card-button material-symbols-outlined">
+                                    outbound
+                            </button>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-scrollbar"></div>
+                </div>
+            </div>
+         </section>
+         <!-- contact -->
+          <section class="contact section" id="contact">
+            <h2 class="section_title">Contact</h2>
+            <div class="contact_container bd_grid">
+                <form action="#" class="contact_form">
+                    <input type="text" placeholder="Name" class ="control_input">
+                <input type="mail" placeholder="Email" class ="control_input">
+                <input type="button" value="Send" class ="control_input button">
+                </form>
+            </div>
+          </section>
+          <!-- footer section -->
+
+
     </main>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src="./js/main.js""></script>
+    <script src="./js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./js/swiper.js"></script>
 </body>
 </html>
